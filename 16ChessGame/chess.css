@@ -1,0 +1,64 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    height:100%;
+    width:100%;
+}
+
+.dad-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-container{
+    height:480px;
+    width:480px;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.square{
+    background-color: #EBECD0;
+    height:60px;
+    width:60px;
+}
+
+.files:nth-of-type(odd) .square:nth-of-type(even){
+    background-color: #779556;
+}
+
+.files:nth-of-type(even) .square:nth-of-type(odd){
+    background-color: #779556;
+}
+
+img{
+    width:100%;
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height:30%;
+    width:30%;
+    border-radius: 50%;
+    background-color: rgb(0,0,0,0.15);
+}
+
+.pawnCompo{
+    background-color: red;
+    height:60px;
+    width:60px;
+}
