@@ -9,11 +9,11 @@ let hamdItems = Array.from(document.getElementsByClassName('hamdItem'));
 let masterSongName = document.getElementById('masterSongName');
 
 let hamd = [
-    {hamdName: "Labbaik Yaa Aqsa" , filePath: "songs/1.mp3" , coverPath: "makkahsharif2.jpg"},
-    {hamdName: "Labbaik Yaa Palestine" , filePath: "songs/2.mp3" , coverPath: "masjideAqsa2.jpg"},
-    {hamdName: "Inshallah , Jeetenge hamin ham jeetenge" , filePath: "songs/3.mp3" , coverPath: "nature2.jpg"},
-    {hamdName: "Hamare liye duniya Jannat nahin hai" , filePath: "songs/4.mp3" , coverPath: "map of palestine.jpg"},
-    {hamdName: "Qirdaar mein jazbaa paida kar" , filePath: "songs/5.mp3" , coverPath: "palestine flag.jpg"},
+    {hamdName: "Wo Jab Mushkurate toh sab mushkurate..." , filePath: "songs/Nabipaak.mp3" , coverPath: "nature6.jpg"},
+    {hamdName: "Likha hai Eik Zaifaa thii ..." , filePath: "songs/Zaifaa.mp3" , coverPath: "nature5.jpg"},
+    {hamdName: "Maine Tujhe jaana hai Faqat teri ata se ." , filePath: "songs/AllamaIqbaal.mp3" , coverPath: "nightNature2.jpg"},
+    {hamdName: "Zakham Jo dil ne khaye hain ..." , filePath: "songs/ZakhmaDil.mp3" , coverPath: "nature7.jpg"},
+    {hamdName: "Har Eik Janib Udasii hai ..." , filePath: "songs/Udasiihai.mp3" , coverPath: "nightNature.jpg"},
 ]
 
 hamdItems.forEach((ele,i)=>{
